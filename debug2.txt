@@ -1,0 +1,493 @@
+end not reach
+recieve 10
+10,0
+10
+trying to match number and pgm
+match fail
+match fail handler
+terminal:number, non terminal:pgm
+follow:1
+trying to match number and line
+match fail
+match fail handler
+terminal:number, non terminal:line
+follow:3
+trying to match number and line_num
+case 2 match
+sending (#line,10) to output
+match:10 and line_num success
+end not reach
+recieve A
+A
+trying to match id and stmt
+match fail
+match fail handler
+terminal:id, non terminal:stmt
+follow:4
+trying to match id and asgmnt
+match fail
+match fail handler
+terminal:id, non terminal:asgmnt
+follow:9
+trying to match id and id
+case 3 match
+sending (#id,1) to output
+match:A and id success
+end not reach
+recieve =
+=
+trying to match = and =
+case 3 match
+sending (#op,4) to output
+match:= and = success
+end not reach
+recieve 1
+1
+trying to match number and exp
+match fail
+match fail handler
+terminal:number, non terminal:exp
+follow:10
+trying to match number and term
+match fail
+match fail handler
+terminal:number, non terminal:term
+follow:15
+trying to match number and const
+case 1 match
+sending (#const,1) to output
+match:1 and const success
+end not reach
+recieve 20
+20
+trying to match number and exp'
+match fail
+match fail handler
+terminal:number, non terminal:exp'
+follow:13
+trying to match number and pgm
+match fail
+match fail handler
+terminal:number, non terminal:pgm
+follow:1
+trying to match number and line
+match fail
+match fail handler
+terminal:number, non terminal:line
+follow:3
+trying to match number and line_num
+case 2 match
+sending (#line,20) to output
+match:20 and line_num success
+end not reach
+recieve S
+S
+trying to match id and stmt
+match fail
+match fail handler
+terminal:id, non terminal:stmt
+follow:4
+trying to match id and asgmnt
+match fail
+match fail handler
+terminal:id, non terminal:asgmnt
+follow:9
+trying to match id and id
+case 3 match
+sending (#id,19) to output
+match:S and id success
+end not reach
+recieve =
+=
+trying to match = and =
+case 3 match
+sending (#op,4) to output
+match:= and = success
+end not reach
+recieve 0
+0
+trying to match number and exp
+match fail
+match fail handler
+terminal:number, non terminal:exp
+follow:10
+trying to match number and term
+match fail
+match fail handler
+terminal:number, non terminal:term
+follow:15
+trying to match number and const
+case 1 match
+sending (#const,0) to output
+match:0 and const success
+end not reach
+recieve 30
+30
+trying to match number and exp'
+match fail
+match fail handler
+terminal:number, non terminal:exp'
+follow:13
+trying to match number and pgm
+match fail
+match fail handler
+terminal:number, non terminal:pgm
+follow:1
+trying to match number and line
+match fail
+match fail handler
+terminal:number, non terminal:line
+follow:3
+trying to match number and line_num
+case 2 match
+sending (#line,30) to output
+match:30 and line_num success
+end not reach
+recieve IF
+IF
+trying to match IF and stmt
+match fail
+match fail handler
+terminal:IF, non terminal:stmt
+follow:5
+trying to match IF and if
+match fail
+match fail handler
+terminal:IF, non terminal:if
+follow:16
+trying to match IF and IF
+case 3 match
+alternative mode activated
+sending (#if,0) to output
+match:IF and IF success
+end not reach
+recieve 10
+10
+trying to match number and cond
+match fail
+match fail handler
+terminal:number, non terminal:cond
+follow:17
+trying to match number and term
+match fail
+match fail handler
+terminal:number, non terminal:term
+follow:15
+trying to match number and const
+case 1 match
+sending (#const,10) to output
+match:10 and const success
+end not reach
+recieve <
+<
+trying to match < and cond'
+match fail
+match fail handler
+terminal:<, non terminal:cond'
+follow:18
+trying to match < and <
+case 3 match
+sending (#op,3) to output
+match:< and < success
+end not reach
+recieve A
+A
+trying to match id and term
+match fail
+match fail handler
+terminal:id, non terminal:term
+follow:14
+trying to match id and id
+case 3 match
+sending (#id,1) to output
+match:A and id success
+end not reach
+recieve 70
+70
+trying to match number and line_num
+case 2 match
+sending (#goto,70) to output
+alternative mode deactivated
+match:70 and line_num success
+end not reach
+recieve 40
+40
+trying to match number and pgm
+match fail
+match fail handler
+terminal:number, non terminal:pgm
+follow:1
+trying to match number and line
+match fail
+match fail handler
+terminal:number, non terminal:line
+follow:3
+trying to match number and line_num
+case 2 match
+sending (#line,40) to output
+match:40 and line_num success
+end not reach
+recieve S
+S
+trying to match id and stmt
+match fail
+match fail handler
+terminal:id, non terminal:stmt
+follow:4
+trying to match id and asgmnt
+match fail
+match fail handler
+terminal:id, non terminal:asgmnt
+follow:9
+trying to match id and id
+case 3 match
+sending (#id,19) to output
+match:S and id success
+end not reach
+recieve =
+=
+trying to match = and =
+case 3 match
+sending (#op,4) to output
+match:= and = success
+end not reach
+recieve S
+S
+trying to match id and exp
+match fail
+match fail handler
+terminal:id, non terminal:exp
+follow:10
+trying to match id and term
+match fail
+match fail handler
+terminal:id, non terminal:term
+follow:14
+trying to match id and id
+case 3 match
+sending (#id,19) to output
+match:S and id success
+end not reach
+recieve +
++
+trying to match + and exp'
+match fail
+match fail handler
+terminal:+, non terminal:exp'
+follow:11
+trying to match + and +
+case 3 match
+sending (#op,1) to output
+match:+ and + success
+end not reach
+recieve A
+A
+trying to match id and term
+match fail
+match fail handler
+terminal:id, non terminal:term
+follow:14
+trying to match id and id
+case 3 match
+sending (#id,1) to output
+match:A and id success
+end not reach
+recieve 50
+50
+trying to match number and pgm
+match fail
+match fail handler
+terminal:number, non terminal:pgm
+follow:1
+trying to match number and line
+match fail
+match fail handler
+terminal:number, non terminal:line
+follow:3
+trying to match number and line_num
+case 2 match
+sending (#line,50) to output
+match:50 and line_num success
+end not reach
+recieve A
+A
+trying to match id and stmt
+match fail
+match fail handler
+terminal:id, non terminal:stmt
+follow:4
+trying to match id and asgmnt
+match fail
+match fail handler
+terminal:id, non terminal:asgmnt
+follow:9
+trying to match id and id
+case 3 match
+sending (#id,1) to output
+match:A and id success
+end not reach
+recieve =
+=
+trying to match = and =
+case 3 match
+sending (#op,4) to output
+match:= and = success
+end not reach
+recieve A
+A
+trying to match id and exp
+match fail
+match fail handler
+terminal:id, non terminal:exp
+follow:10
+trying to match id and term
+match fail
+match fail handler
+terminal:id, non terminal:term
+follow:14
+trying to match id and id
+case 3 match
+sending (#id,1) to output
+match:A and id success
+end not reach
+recieve +
++
+trying to match + and exp'
+match fail
+match fail handler
+terminal:+, non terminal:exp'
+follow:11
+trying to match + and +
+case 3 match
+sending (#op,1) to output
+match:+ and + success
+end not reach
+recieve 1
+1
+trying to match number and term
+match fail
+match fail handler
+terminal:number, non terminal:term
+follow:15
+trying to match number and const
+case 1 match
+sending (#const,1) to output
+match:1 and const success
+end not reach
+recieve 60
+60
+trying to match number and pgm
+match fail
+match fail handler
+terminal:number, non terminal:pgm
+follow:1
+trying to match number and line
+match fail
+match fail handler
+terminal:number, non terminal:line
+follow:3
+trying to match number and line_num
+case 2 match
+sending (#line,60) to output
+match:60 and line_num success
+end not reach
+recieve GOTO
+GOTO
+trying to match GOTO and stmt
+match fail
+match fail handler
+terminal:GOTO, non terminal:stmt
+follow:7
+trying to match GOTO and goto
+match fail
+match fail handler
+terminal:GOTO, non terminal:goto
+follow:21
+trying to match GOTO and GOTO
+case 3 match
+alternative mode activated
+match:GOTO and GOTO success
+end not reach
+recieve 30
+30
+trying to match number and line_num
+case 2 match
+sending (#goto,30) to output
+alternative mode deactivated
+match:30 and line_num success
+end not reach
+recieve 70
+70
+trying to match number and pgm
+match fail
+match fail handler
+terminal:number, non terminal:pgm
+follow:1
+trying to match number and line
+match fail
+match fail handler
+terminal:number, non terminal:line
+follow:3
+trying to match number and line_num
+case 2 match
+sending (#line,70) to output
+match:70 and line_num success
+end not reach
+recieve PRINT
+PRINT
+trying to match PRINT and stmt
+match fail
+match fail handler
+terminal:PRINT, non terminal:stmt
+follow:6
+trying to match PRINT and print
+match fail
+match fail handler
+terminal:PRINT, non terminal:print
+follow:20
+trying to match PRINT and PRINT
+case 3 match
+sending (#print,0) to output
+match:PRINT and PRINT success
+end not reach
+recieve S
+S
+trying to match id and id
+case 3 match
+sending (#id,19) to output
+match:S and id success
+end not reach
+recieve 80
+80
+trying to match number and pgm
+match fail
+match fail handler
+terminal:number, non terminal:pgm
+follow:1
+trying to match number and line
+match fail
+match fail handler
+terminal:number, non terminal:line
+follow:3
+trying to match number and line_num
+case 2 match
+sending (#line,80) to output
+match:80 and line_num success
+end not reach
+recieve STOP
+STOP
+trying to match STOP and stmt
+match fail
+match fail handler
+terminal:STOP, non terminal:stmt
+follow:8
+trying to match STOP and stop
+match fail
+match fail handler
+terminal:STOP, non terminal:stop
+follow:22
+trying to match STOP and STOP
+case 3 match
+sending (#stop,0) to output
+match:STOP and STOP success
+end reach
